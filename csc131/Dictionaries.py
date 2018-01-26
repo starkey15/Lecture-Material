@@ -1,6 +1,5 @@
 def get_personal_data() -> dict:
     """
-
-    :return:
+    :return: returns a dictionary of personal information.
     """
-    print("")
+    personal_data = {}
