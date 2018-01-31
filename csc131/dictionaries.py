@@ -5,7 +5,7 @@ def get_personal_data() -> dict:
     personal_data = {"name": "Colton", "role": "student"}
     return personal_data
 
-def main() -> int:
+def main() -> int: #also found in 1-29-2018
     default_dict = dict() #default because no arguments
     print(default_dict)
 
