@@ -17,7 +17,7 @@ def main() -> int:
     for key in sorted(my_dictionary.keys()):  #just prints in easy to read formatting
         print("%s: %s" % (key,my_dictionary[key])) #including optional
 
-def fib_memoization(n: int, lookup: dict) -> int:
+def fib_memoization(n: int, lookup: dict) -> int:         #memoization (top down approach)
 
     if n<1:
         return -1
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 """
 
 """ #approach 3
-def fib_tab(n:int) -> int:
+def fib_tab(n:int) -> int:     #using tabulation (bottom up)
     f = [0]*(n+1)              #opens array
     f[1] = 1                   #adds this value to array
     for i in range(2,n+1):     #start at two because f[1] is already defined
