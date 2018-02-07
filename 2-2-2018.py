@@ -43,4 +43,6 @@ reduce(multiply,data)
 #Lambda - specify addition or multiplication on the fly
 
 data = [1,2,3,4]
-reduce(lamba x, y: x+y, data)
+reduce(lambda x, y: x+y), data)
+
+
