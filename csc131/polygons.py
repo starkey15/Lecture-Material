@@ -46,7 +46,7 @@ def octagon(t: turtle.Turtle, length: int) -> None:
         t.left(45)
 
 
-# stop sign shape w/o STOP word
+# stop sign shape w/o STOP word -- fixed border, need to fix
 def draw_polygon(t: turtle.Turtle, length: int, sides: int) -> None:
     for count in range(sides):
         t.forward(length)
@@ -62,5 +62,5 @@ def draw_polygon(t: turtle.Turtle, length: int, sides: int) -> None:
     t.end_fill()
     turtle.done()
 
-
-draw_polygon(turtle, 100, 10)
+turtle.speed(10)
+draw_polygon(turtle, 50, 10)
