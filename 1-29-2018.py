@@ -20,3 +20,6 @@ def main() -> int:
     s = "little,".translate({ord(i): None for i in string.punctuation})
 
     return 0
+
+if __name__ == "__main__":
+    main()
