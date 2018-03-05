@@ -4,7 +4,7 @@ This module defines the Bank class.
 """
 import pickle
 import random
-from csc131.ch09.savings_account import SavingsAccount
+from csc131.savingsaccount import SavingsAccount
 
 
 class Bank:
